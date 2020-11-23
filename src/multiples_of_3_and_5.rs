@@ -7,7 +7,6 @@ fn multiples_of_3_and_5(bound: u32) -> u32 {
     (1..bound).filter(|&n| n % 3 == 0 || n % 5 == 0).sum()
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::multiples_of_3_and_5;
